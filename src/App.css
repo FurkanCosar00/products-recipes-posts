@@ -1,0 +1,115 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1350px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.products {
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 30px;
+}
+
+.product {
+  background-color: blue;
+  width: 300px;
+  padding: 10px;
+}
+
+.pagination {
+  background-color: yellow;
+  display: flex;
+  gap: 30px;
+  width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pagination li {
+  background-color: violet;
+  padding: 10px 20px;
+}
+
+
+
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.recipe {
+  background-color: red;
+  width: 660px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.productImage img {
+  width: 400px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 0px;
+}
+
+.productTexts h4 {
+  font-size: 22px;
+}
+
+.explanation {
+  background-color: blue;
+}
+
+.materials {
+  background-color: blueviolet;
+}
+
+.doNotShow {
+  display: none;
+}
+
+
